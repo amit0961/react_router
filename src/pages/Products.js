@@ -4,7 +4,6 @@ const Products = () => {
   return (
     <>
       <section className='section'>
-        <h2>products</h2>
         <div className="section">
           {products.map((product)=>{
             return(<article key={product.id}>
