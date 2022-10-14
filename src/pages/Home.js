@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
+
 
 const Home = () => {
   return (
+    <>
     <section className="section">
-      <h2>Home Page</h2>
-      <Link to="/about" className="btn">
-        About
-      </Link>
+      <h2>this is the home page</h2>
     </section>
+    </>
+    
   );
 };
 export default Home;
